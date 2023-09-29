@@ -28,6 +28,9 @@ type vendor_mac_vendor_data_file, data_file_type, file_type, mlstrustedobject;
 # Mlipay
 type ta_data_file, data_file_type, file_type;
 
+# Proximity
+type proc_proximity_ts, proc_type, fs_type;
+
 # Thermal
 type sys_thermal_wifi_limit, fs_type, sysfs_type;
 type sys_thermal_flash_state, fs_type, sysfs_type;
