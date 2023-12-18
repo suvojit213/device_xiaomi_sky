@@ -418,6 +418,7 @@ PRODUCT_PACKAGES += \
 	init.kernel.post_boot-ravelin.sh \
     init.kernel.post_boot.sh \
     init.sky.rc \
+    init.sky.perf.rc \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
