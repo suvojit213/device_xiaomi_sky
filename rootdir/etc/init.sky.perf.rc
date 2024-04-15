@@ -19,7 +19,7 @@ on property:vendor.post_boot.parsed=1
     write /dev/cpuset/system-background/cpus 0-3
 
     # Configure CPU input boost
-    write /proc/sys/walt/input_boost/input_boost_freq "1324800 0 0 0 0 0 0 0"
+    write /proc/sys/walt/input_boost/input_boost_freq "1324800 0 0 0 1113600 0 0 0"
     write /proc/sys/walt/input_boost/input_boost_ms 150
 
     # Configure CPU governor ratelimits
