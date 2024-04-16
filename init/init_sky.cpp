@@ -84,8 +84,6 @@ void vendor_load_properties() {
 
     if (region == "India" && boardid == "S88019EP1") {
         set_device_props("POCO", "sky", "23076PC4BI", "sky_p_in", "POCO M6 Pro 5G");
-    } else if (region == "CN") {
-	 set_device_props("Redmi", "sky", "23076RA4BC", "sky", "Redmi Note 12R");
     } else {
          set_device_props("Redmi", "sky", "23076RN4BI", "sky_in", "Redmi 12 5G");
     }
