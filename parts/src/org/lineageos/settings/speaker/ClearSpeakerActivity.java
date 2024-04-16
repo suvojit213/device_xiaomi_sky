@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 Paranoid Android
+ * Copyright (C) 2020-2024 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,6 @@ package org.lineageos.settings.speaker;
 import android.os.Bundle;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-import com.android.settingslib.widget.R;
 
 public class ClearSpeakerActivity extends CollapsingToolbarBaseActivity {
 
@@ -27,7 +26,7 @@ public class ClearSpeakerActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getFragmentManager().beginTransaction()
-                .replace(R.id.content_frame, new ClearSpeakerFragment())
+                .replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame, new ClearSpeakerFragment())
                 .commit();
     }
 }
