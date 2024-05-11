@@ -9,6 +9,7 @@
 
 DEVICE_PATH := device/xiaomi/sky
 KERNEL_PATH := $(DEVICE_PATH)-kernel
+BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 
 # A/B
 AB_OTA_UPDATER := true
