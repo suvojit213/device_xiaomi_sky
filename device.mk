@@ -27,6 +27,11 @@ QCV_FAMILY_SKUS := parrot ravelin
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend \
+    charger_res_images
+	
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \

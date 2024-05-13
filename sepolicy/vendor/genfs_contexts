@@ -1,6 +1,9 @@
 # Battery
 genfscon sysfs /class/qcom-battery u:object_r:vendor_sysfs_battery_supply:s0
 
+# Display Feature HAL
+genfscon sysfs /class/display/backlight_clone/brightness_clone u:object_r:vendor_sysfs_displayfeature:s0
+
 # Extcon
 genfscon sysfs /devices/platform/soc/88e0000.qcom,msm-eud/extcon u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,msm-ext-disp/extcon u:object_r:sysfs_extcon:s0
@@ -13,7 +16,6 @@ genfscon sysfs /devices/platform/soc/soc:fingerprint_goodix                     
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc                        u:object_r:vendor_sysfs_fingerprint:s0
 
 # Proximity
-
 genfscon proc /touchscreen/proximity_switch            u:object_r:proc_proximity_ts:s0
 genfscon proc /touchscreen/store_data_proximity        u:object_r:proc_proximity_ts:s0
 

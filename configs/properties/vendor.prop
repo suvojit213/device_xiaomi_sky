@@ -1,4 +1,5 @@
 # Audio
+vendor.qcom.bluetooth.soc=cherokee
 aaudio.hw_burst_min_usec=2000
 aaudio.mmap_exclusive_policy=2
 aaudio.mmap_policy=1
@@ -184,8 +185,6 @@ persist.sys.miui.camera.protect_prev_ext=true
 
 # Display
 vendor.display.comp_mask=0
-vendor.display.disable_3d_adaptive_tm=1
-vendor.display.disable_dynamic_sf_idle=1
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_hw_recovery_dump=1
@@ -203,8 +202,6 @@ vendor.display.enable_optimize_refresh=0
 vendor.display.enable_rc_support=1
 vendor.display.enable_rounded_corner=1
 vendor.display.idle_time=0
-vendor.display.svi.config=1
-vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 vendor.display.use_smooth_motion=1
 vendor.display.vds_allow_hwc=true
 
@@ -229,7 +226,6 @@ vendor.gatekeeper.disable_spu=true
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.color_mode=7
 persist.sys.sf.native_mode=256
-debug.cpurend.vsync=false
 debug.sf.hw=0
 debug.egl.hw=0
 debug.sf.auto_latch_unsignaled=1
@@ -246,7 +242,7 @@ ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.taro.api32
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
 ro.opengles.version=196610
-ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.has_wide_color_display=false
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
