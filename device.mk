@@ -411,6 +411,8 @@ PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
     fstab.default \
     init.class_main.sh \
+	init.kernel.post_boot-ravelin.sh \
+    init.kernel.post_boot.sh \
     init.sky.rc \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
