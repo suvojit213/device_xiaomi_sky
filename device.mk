@@ -429,6 +429,10 @@ PRODUCT_PACKAGES += \
     ueventd-odm.rc \
     init.recovery.qcom.rc
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/bin/init.kernel.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot.sh \
+    $(LOCAL_PATH)/rootdir/bin/init.sky.perf.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.sky.perf.sh
+
 # RRO Overlays
 PRODUCT_PACKAGES += \
     CarrierConfig \
