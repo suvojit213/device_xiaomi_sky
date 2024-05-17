@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sky.mk
+    $(LOCAL_DIR)/voltage_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sky-eng \
-    lineage_sky-userdebug \
-    lineage_sky-user
+    voltage_sky-eng \
+    voltage_sky-userdebug \
+    voltage_sky-user
