@@ -252,6 +252,7 @@ vendor/etc/camera/xiaomi/uwsuperlowlightshot.json
 vendor/etc/camera/xiaomiSceneDetection.xml
 
 # Camera
+system_ext/lib64/vendor.qti.hardware.seccam@1.0.so
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
 vendor/lib64/camera.device@1.0-impl.so
@@ -413,8 +414,22 @@ vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/com.qti.settings.clarence.so
 vendor/lib64/com.qti.settings.netrani.so
 vendor/lib64/com.qti.stats.common.so
+vendor/lib64/com.qualcomm.mcx.distortionmapper.so
+vendor/lib64/com.qualcomm.mcx.linearmapper.so
+vendor/lib64/com.qualcomm.mcx.policy.mfl.so
+vendor/lib64/com.qualcomm.mcx.policy.xr.so
+vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
+vendor/lib64/com.xiaomi.plugin.capbokeh.so
+vendor/lib64/com.xiaomi.plugin.hdr.so
+vendor/lib64/com.xiaomi.plugin.memcpy.so
+vendor/lib64/com.xiaomi.plugin.mibokeh.so
+vendor/lib64/com.xiaomi.plugin.skinbeautifier.so
+vendor/lib64/com.xiaomi.plugin.superlowlight.so
+vendor/lib64/com.xiaomi.plugin.swflip.so
 vendor/lib64/libMNN.so
 vendor/lib64/libOpenCL.so
+vendor/lib64/libaidenoiser.so
+vendor/lib64/libaidenoiserv2.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_dualcam_refocus_image.so
 vendor/lib64/libarcsoft_dualcam_refocus_video.so
@@ -424,6 +439,7 @@ vendor/lib64/libarcsoft_low_light_hdr.so
 vendor/lib64/libarcsoft_portrait_lighting.so
 vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_supernight.so
+vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera2ndk_vendor.so
@@ -451,12 +467,15 @@ vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libeva.so
 vendor/lib64/libgralloc.qti.so
 vendor/lib64/libhdr10plus.so
+vendor/lib64/libimp.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libipebpsstriping170.so
 vendor/lib64/libipebpsstriping480.so
+vendor/lib64/libjni_aidenoiserutilv2.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmemunreachable.so
 vendor/lib64/libmfGhostDetection.so
+vendor/lib64/libmfec.so
 vendor/lib64/libmialgo_ai_vision.so
 vendor/lib64/libmialgo_aio_seg.so
 vendor/lib64/libmialgo_sd.so
@@ -478,7 +497,13 @@ vendor/lib64/libmmcamera_pdpc.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopencv3a.so
+vendor/lib64/libopencv_java4.so
+vendor/lib64/libopestriping.so
 vendor/lib64/libos.so
+vendor/lib64/libqll.so
+vendor/lib64/libqll10.so
+vendor/lib64/libqllengine.so
+vendor/lib64/librelight_only.so
 vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libscveCommon_stub.so
@@ -486,10 +511,13 @@ vendor/lib64/libscveObjectSegmentation.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
 vendor/lib64/libsensorslog.so
+vendor/lib64/libsfeShiftExtrapolation.so
 vendor/lib64/libsnsapi.so
+vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
+vendor/lib64/libubifocus.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
@@ -1145,6 +1173,7 @@ vendor/lib64/libxtadapter.so
 vendor/lib64/libxtwifi_server_protocol.so
 vendor/lib64/libxtwifi_server_protocol_uri_v3.so
 vendor/lib64/vendor.qti.gnss-service.so
+vendor/lib64/vendor.qti.gnss-V3-ndk_platform.so
 
 # Graphics (Adreno)
 vendor/gpu/kbc/sequence_manifest.bin
