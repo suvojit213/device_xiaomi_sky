@@ -13,6 +13,7 @@
 #define FINGERPRINT_REDMI_IN "Redmi/sky_in/sky:14/UKQ1.231003.002/V816.0.4.0.UMWINXM:user/release-keys"
 #define FINGERPRINT_CHINA "Redmi/sky/sky:14/UKQ1.231003.002/V816.0.5.0.UMWCNXM:user/release-keys"
 #define FINGERPRINT_GLOBAL_NFC "Redmi/river_global/river:14/UKQ1.231003.002/V816.0.4.0.UMWMIXM:user/release-keys"
+#define FINGERPRINT_JPN "Redmi/XIG03_jp_kdi/XIG03:14/UKQ1.230917.001/V816.0.5.0.UMWJPKD:user/release-keys"
 
 static const variant_info_t sky_poco_info = {
     .hwc_value = "India",
@@ -111,6 +112,18 @@ static const variant_info_t river_info_S88018PA1 = {
     .build_fingerprint = FINGERPRINT_GLOBAL_NFC,
 };
 
+static const variant_info_t river_info_S88029EA1 = {
+    .hwc_value = "Japan",
+    .boardid = "S88029EA1",
+
+    .brand = "Redmi",
+    .device = "XIG03",
+    .marketname = "Redmi 12 5G",
+    .model = "XIG03",
+    .mod_device = "xig03_jp_kdi",
+    .build_fingerprint = FINGERPRINT_JPN,
+};
+
 static const variant_info_t river_info_S88029JA1 = {
     .hwc_value = "Japan",
     .boardid = "S88029JA1",
@@ -132,6 +145,7 @@ static const std::vector<variant_info_t> variants = {
     river_info_S88029AA1,
     river_info_S88019BP1,
     river_info_S88018PA1,
+    river_info_S88029EA1,
     river_info_S88029JA1,
 };
 
