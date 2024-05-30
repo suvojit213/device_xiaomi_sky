@@ -380,7 +380,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay-lineage \
+    $(DEVICE_PATH)/overlay
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
