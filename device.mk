@@ -81,6 +81,9 @@ PRODUCT_PACKAGES += \
     audio.usb.default
 
 PRODUCT_PACKAGES += \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
     libvolumelistener
 
 PRODUCT_COPY_FILES += \
