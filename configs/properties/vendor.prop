@@ -219,6 +219,9 @@ drm.service.enabled=true
 # Fingerprint
 ro.hardware.fp.sideCap=true
 
+# FM
+vendor.qcom.bluetooth.soc=cherokee
+
 # RFP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
