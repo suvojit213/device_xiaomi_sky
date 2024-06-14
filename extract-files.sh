@@ -62,6 +62,9 @@ function blob_fixup() {
         vendor/bin/sensors-qesdk)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
             ;;
+        vendor/etc/init/hw/init.qcom.usb.rc|vendor/etc/init/hw/init.qti.kernel.rc)
+            sed -i 's/on charger/on property:init.svc.vendor.charger=running/g' "${2}"
+            ;;
         vendor/lib64/libqshcamera.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
             ;;
