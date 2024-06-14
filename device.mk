@@ -218,6 +218,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Priv apps
+PRODUCT_PACKAGES += \
+    Privapps
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1.vendor \

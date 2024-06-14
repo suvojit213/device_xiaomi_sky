@@ -10,6 +10,7 @@
 DEVICE_PATH := device/xiaomi/sky
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
+RELAX_USES_LIBRARY_CHECK=true
 
 # A/B
 AB_OTA_UPDATER := true
@@ -19,7 +20,6 @@ AB_OTA_PARTITIONS += \
     dtbo \
     odm \
     product \
-    recovery \
     system \
     system_ext \
     vbmeta \
@@ -84,7 +84,7 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # DTB
 BOARD_USES_DT := true
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtbs
-BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbs/dtbo.img
+BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sky
@@ -265,7 +265,7 @@ DEVICE_MANIFEST_RAVELIN_FILES := \
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/vintf/vendor_framework_compatibility_matrix.xml \
     $(DEVICE_PATH)/configs/vintf/xiaomi_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/genesis/config/device_framework_matrix.xml
 ODM_MANIFEST_SKUS += hceese hcesim hcesim1 hcesim1ese hcesimese
 ODM_MANIFEST_HCEESE_FILES := $(DEVICE_PATH)/configs/vintf/manifest_hceese.xml
 ODM_MANIFEST_HCESIM_FILES := $(DEVICE_PATH)/configs/vintf/manifest_hcesim.xml
