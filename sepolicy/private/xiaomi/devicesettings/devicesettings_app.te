@@ -3,6 +3,7 @@ app_domain(devicesettings_app)
 # Allow devicesettings_app to find *_service
 allow devicesettings_app {
   app_api_service
+  audio_service
   audioserver_service
   cameraserver_service
   drmserver_service
