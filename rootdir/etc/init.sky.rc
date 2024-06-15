@@ -37,6 +37,10 @@ on early-init && property:ro.product.device=river
     setprop ro.vendor.nfc.wallet_fusion 1
     setprop ro.vendor.nfc.dispatch_optim 1
 
+on early-init && property:ro.product.device=XIG03
+    setprop ro.vendor.nfc.repair 1
+    setprop persist.vendor.nfc.factory.fwstatus unknown
+
 on boot
     chown system system /sys/bus/platform/devices/soc:fpc1020/irq
     chown system system /sys/bus/platform/devices/soc:fpc1020/wakeup_enable
