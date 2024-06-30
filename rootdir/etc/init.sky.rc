@@ -41,6 +41,18 @@ on early-init && property:ro.product.device=XIG03
     setprop ro.vendor.nfc.repair 1
     setprop persist.vendor.nfc.factory.fwstatus unknown
 
+on early-init && property:ro.boot.hwc=CN
+    setprop ro.miui.build.region cn
+
+on early-init && property:ro.boot.hwc=Global
+    setprop ro.miui.build.region global
+
+on early-init && property:ro.boot.hwc=India
+    setprop ro.miui.build.region in
+
+on early-init && property:ro.boot.hwc=Japan
+    setprop ro.miui.build.region jp
+
 on boot
     chown system system /sys/bus/platform/devices/soc:fpc1020/irq
     chown system system /sys/bus/platform/devices/soc:fpc1020/wakeup_enable
