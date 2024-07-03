@@ -11,3 +11,18 @@ soong_namespace {
         "hardware/xiaomi",
     ],
 }
+
+// Wi-Fi firmware symlinks
+install_symlink {
+    name: "firmware_adrastea_wlan_mac.bin_symlink",
+    installed_location: "firmware/wlan/qca_cld/adrastea/wlan_mac.bin",
+    symlink_target: "/mnt/vendor/persist/adrastea/wlan_mac.bin",
+    vendor: true,
+}
+
+install_symlink {
+    name: "firmware_adrastea_WCNSS_qcom_cfg.ini_symlink",
+    installed_location: "firmware/wlan/qca_cld/adrastea/WCNSS_qcom_cfg.ini",
+    symlink_target: "/vendor/etc/wifi/adrastea/WCNSS_qcom_cfg.ini",
+    vendor: true,
+}
