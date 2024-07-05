@@ -148,6 +148,10 @@ PRODUCT_PACKAGES_DEBUG += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7.vendor \
+    libcamera_metadata.vendor \
+    libexif.vendor \
+    libutilscallstack.vendor \
+    libyuv.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_COPY_FILES += \
@@ -164,6 +168,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libsuspend \
     charger_res_images
+
+# CURL
+PRODUCT_PACKAGES += \
+    libcurl.vendor
 
 # Device Settings
 PRODUCT_PACKAGES += \
@@ -293,7 +301,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson \
     libjsoncpp \
-    libjsoncpp_ndk
+    libjsoncpp_ndk \
+    libjsoncpp.vendor
 
 # Keymaster
 PRODUCT_PACKAGES += \
@@ -505,6 +514,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
     hardware/xiaomi
 
+# SQLite
+PRODUCT_PACKAGES += \
+    libsqlite.vendor
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
@@ -615,6 +628,7 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
+    libpng.vendor \
     libwfdaac_vendor
 
 # WiFi firmware symlinks
