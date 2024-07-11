@@ -205,6 +205,11 @@ PRODUCT_COPY_FILES += \
 # Firmware
 $(call inherit-product-if-exists, vendor/xiaomi/firmware/sky/config.mk)
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    qcom.fmradio
+
 # F2FS utilities
 PRODUCT_PACKAGES += \
     sg_write_buffer \
