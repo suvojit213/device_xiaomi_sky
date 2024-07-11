@@ -326,3 +326,13 @@ service panel-info-sh /system/vendor/bin/sh /vendor/etc/init.panel_info.sh
     class core
     user root
     oneshot
+
+service sky-post-boot /vendor/bin/init.sky.post_boot.sh
+    class late_start
+    user root
+    group root system wakelock graphics
+    disabled
+    oneshot
+
+on property:vendor.post_boot.parsed=1
+    start sky-post-boot

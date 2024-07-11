@@ -428,6 +428,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
+    init.sky.post_boot.sh \
     init.target.rc \
     ueventd.qcom.rc \
     ueventd-odm.rc \
