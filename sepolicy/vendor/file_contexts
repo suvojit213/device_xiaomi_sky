@@ -103,6 +103,9 @@
 # Modem
 /dev/smd8 u:object_r:vendor_radio_smd_device:s0
 
+# Power
+/vendor/bin/hw/android\.hardware\.power-service\.sky-libperfmgr        u:object_r:hal_power_default_exec:s0
+
 # QRTR
 /(vendor|system/vendor)/bin/qrtr-lookup u:object_r:vendor_qrtr_exec:s0
 
