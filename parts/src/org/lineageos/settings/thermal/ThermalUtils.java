@@ -44,12 +44,12 @@ public final class ThermalUtils {
     protected static final int STATE_STREAMING = 7;
     protected static final int STATE_VIDEO = 8;
 
-    private static final String THERMAL_STATE_DEFAULT = "0";
+    private static final String THERMAL_STATE_DEFAULT = "500";
     private static final String THERMAL_STATE_BENCHMARK = "10";
     private static final String THERMAL_STATE_BROWSER = "11";
     private static final String THERMAL_STATE_CAMERA = "12";
     private static final String THERMAL_STATE_DIALER = "8";
-    private static final String THERMAL_STATE_GAMING = "13";
+    private static final String THERMAL_STATE_GAMING = "520";
     private static final String THERMAL_STATE_NAVIGATION = "19";
     private static final String THERMAL_STATE_STREAMING = "14";
     private static final String THERMAL_STATE_VIDEO = "21";
