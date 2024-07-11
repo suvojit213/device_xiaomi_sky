@@ -5771,3 +5771,7 @@ esac
 misc_link=$(ls -l /dev/block/bootdevice/by-name/misc)
 real_path=${misc_link##*>}
 setprop persist.vendor.mmi.misc_dev_path $real_path
+
+# Setup runtime schedTune
+echo "walt" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo "walt" > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor
