@@ -336,3 +336,6 @@ service sky-post-boot /vendor/bin/init.sky.post_boot.sh
 
 on property:vendor.post_boot.parsed=1
     start sky-post-boot
+
+# Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
