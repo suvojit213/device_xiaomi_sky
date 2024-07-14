@@ -16,6 +16,9 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
+# logs
+persist.log.tag.OpenGLRenderer=S
+
 # RIL
 DEVICE_PROVISIONED=1
 persist.vendor.data.mode=concurrent
