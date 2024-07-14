@@ -179,6 +179,7 @@ persist.sys.miui.camera.boost.killAdj_threshold=500:251:200:50
 persist.sys.miui.camera.protect_prev_ext=true
 
 # Display
+debug.sf.disable_client_composition_cache=1
 vendor.display.comp_mask=0
 vendor.display.disable_3d_adaptive_tm=1
 vendor.display.disable_excl_rect=0
