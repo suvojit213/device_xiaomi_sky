@@ -216,6 +216,9 @@ ro.hardware.fp.sideCap=true
 # FM
 vendor.qcom.bluetooth.soc=cherokee
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # RFP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
