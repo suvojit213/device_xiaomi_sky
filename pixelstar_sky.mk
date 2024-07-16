@@ -17,6 +17,10 @@ $(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
 $(call inherit-product, vendor/pixelstar/config/BoardConfigReservedSize.mk)
 
+PIXELSTAR_BUILD_TYPE := official
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Inherit device configurations
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
