@@ -793,13 +793,10 @@ vendor/etc/xiaomi_m19_42_03_0c_fhd_dsc_video_dsi_panel_mi.xml
 
 # DPM
 system_ext/bin/dpmd
-system_ext/bin/tcmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
-system_ext/etc/init/tcmd.rc
 system_ext/etc/permissions/com.qti.dpmframework.xml
 system_ext/etc/permissions/dpmapi.xml
-system_ext/etc/seccomp_policy/tcmd.policy
 system_ext/framework/com.qti.dpmframework.jar
 system_ext/framework/dpmapi.jar
 system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
