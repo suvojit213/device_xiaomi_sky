@@ -117,9 +117,6 @@ ro.vendor.gnss.edgnss.downloadQxwzAk u:object_r:vendor_edgnss_qxwz_downloadak_pr
 # Panel
 vendor.panel. u:object_r:vendor_panel_info_prop:s0
 
-# Power
-vendor.powerhal.                                      u:object_r:vendor_power_prop:s0
-
 # MIUI
 ro.miui.region                      u:object_r:exported_system_prop:s0
 ro.miui.build.region                u:object_r:exported_system_prop:s0
