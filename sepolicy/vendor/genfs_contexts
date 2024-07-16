@@ -7,6 +7,12 @@ genfscon sysfs /devices/platform/soc/soc:goodix_fp                              
 genfscon sysfs /devices/platform/soc/soc:fingerprint_goodix                     u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc                        u:object_r:vendor_sysfs_fingerprint:s0
 
+# Power HAL
+genfscon sysfs /devices/platform/soc/3d00000.qcom,kgsl-3d0 u:object_r:vendor_sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/19091000.qcom,bwmon-ddr u:object_r:vendor_sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/190b6400.qcom,bwmon-llcc u:object_r:vendor_sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary u:object_r:vendor_sysfs_graphics:s0
+
 # Proximity
 genfscon proc /touchscreen/proximity_switch            u:object_r:proc_proximity_ts:s0
 genfscon proc /touchscreen/store_data_proximity        u:object_r:proc_proximity_ts:s0
