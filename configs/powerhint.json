@@ -352,6 +352,12 @@
       "Value": "1555000"
     },
     {
+      "PowerHint": "INTERACTION",
+      "Node": "EnergyAware",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
       "PowerHint": "LAUNCH",
       "Node": "EnergyAware",
       "Duration": 5000,
