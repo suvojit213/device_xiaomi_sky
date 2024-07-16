@@ -409,7 +409,15 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.sky-libperfmgr
+    android.hardware.power-service.xiaomi-libperfmgr \
+    android.hardware.power@1.3.vendor \
+    libgrpc++_unsecure.vendor \
+
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.0.vendor \
+    vendor.qti.hardware.perf@2.1.vendor \
+    vendor.qti.hardware.perf@2.2.vendor \
+    vendor.qti.hardware.perf@2.3.vendor
 
 # Properties
 include $(DEVICE_PATH)/configs/properties/default.mk
