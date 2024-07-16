@@ -1702,10 +1702,6 @@ vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
 vendor/lib64/vendor.qti.hardware.limits@1.0.so
 vendor/lib64/vendor.qti.hardware.limits@1.1.so
 
-# Thermal
-vendor/lib/libthermalclient.so
-vendor/lib64/libthermalclient.so
-
 # Thermal engine
 vendor/bin/mi_thermald
 vendor/bin/thermal-engine-v2
