@@ -9,7 +9,7 @@
 
 DEVICE_PATH := device/xiaomi/sky
 KERNEL_PATH := $(DEVICE_PATH)-kernel
-
+RELAX_USES_LIBRARY_CHECK=true
 # A/B
 AB_OTA_UPDATER := true
 
