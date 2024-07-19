@@ -23,8 +23,8 @@ aaudio.mmap_exclusive_policy=2
 aaudio.hw_burst_min_usec=2000
 
 # Blur
-ro.sf.blurs_are_expensive=0
-ro.surface_flinger.supports_background_blur=0
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
 
 # Radio
 persist.vendor.radio.hidl_dev_service=true
