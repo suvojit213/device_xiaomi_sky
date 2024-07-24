@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelstar_sky.mk
+    $(LOCAL_DIR)/lineage_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelstar_sky-eng \
-    pixelstar_sky-userdebug \
-    pixelstar_sky-user
+    lineage_sky-eng \
+    lineage_sky-userdebug \
+    lineage_sky-user
