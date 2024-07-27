@@ -74,3 +74,17 @@ on property:vendor.fps_hal.restartimes=max
 
 on property:sys.boot_completed=1
     write /sys/class/thermal/thermal_message/sconfig 500
+
+# Pixel Integration Features (PIF) Spoofing
+on init
+    setprop ro.build.id AP31.240617.009
+    setprop ro.build.brand google
+    setprop ro.product.device husky
+    setprop ro.build.fingerprint google/husky_beta/husky:15/AP31.240617.009/12094726:user/release-keys
+    setprop ro.product.manufacturer Google
+    setprop ro.product.model "Pixel 8 Pro"
+    setprop ro.build.product husky_beta
+    setprop ro.build.version.security_patch 2024-07-05
+    setprop ro.product.first_api_level 21
+    setprop ro.config.SPOOF_PACKAGE_MANAGER false
+    setprop ro.debuggable 0
