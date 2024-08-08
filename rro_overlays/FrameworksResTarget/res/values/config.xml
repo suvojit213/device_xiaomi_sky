@@ -194,6 +194,12 @@
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
 
+    <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
+    <bool name="config_dozePulsePickup">true</bool>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
+
     <!-- Considering the fact that the system might have an incorrect estimation of the time to
          full. Set a time margin to make the device fully charged before the target time arrives.
          The unit is minutes and the default value is 30 minutes. If you find that it is not enough
