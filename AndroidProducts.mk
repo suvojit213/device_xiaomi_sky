@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sky.mk
+    $(LOCAL_DIR)/lineage_sky.mk
