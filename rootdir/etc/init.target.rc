@@ -73,6 +73,9 @@ on post-fs
 on late-fs
     mount_all --late
 
+on property:sys.boot_completed=1
+    stop statsd
+
     # Enable ZRAM on boot_complete
     swapon_all /vendor/etc/fstab.qcom
 
