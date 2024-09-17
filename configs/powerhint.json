@@ -219,26 +219,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "L3LittleClusterMinFreq",
-      "Path": "/sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:ddr:silver/min_freq",
-      "Values": [
-        "1804",
-        "1632",
-        "499"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "L3BigClusterMinFreq",
-      "Path": "/sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:ddr:gold/min_freq",
-      "Values": [
-        "2208",
-        "2054",
-        "691"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "PMQoSCpuDmaLatency",
       "Path": "/dev/cpu_dma_latency",
       "Values": [
@@ -428,18 +408,6 @@
       "Node": "GPUIdleTimer",
       "Duration": 5000,
       "Value": "10000"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "L3LittleClusterMinFreq",
-      "Duration": 5000,
-      "Value": "1804"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "L3BigClusterMinFreq",
-      "Duration": 5000,
-      "Value": "2208"
     },
     {
       "PowerHint": "CAMERA_LAUNCH",
