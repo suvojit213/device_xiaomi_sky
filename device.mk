@@ -324,13 +324,8 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libOmxCore \
     libcodec2_hidl@1.0.vendor \
-    libcodec2_soft_common.vendor \
-    libcodec2_vndk.vendor \
-    libsfplugin_ccodec_utils.vendor \
-    libstagefrighthw \
-    libstagefright_softomx_plugin.vendor
+    libsfplugin_ccodec_utils.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
