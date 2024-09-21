@@ -325,7 +325,10 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
-    libsfplugin_ccodec_utils.vendor
+    libsfplugin_ccodec_utils.vendor \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
+    libavservices_minijail_vendor
 
 # NFC
 PRODUCT_PACKAGES += \
