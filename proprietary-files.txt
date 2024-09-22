@@ -1,4 +1,4 @@
-# Device proprietary files - from sky HyperOS V816.0.5.0.UMWINXM package, unless pinned
+# Device proprietary files - from sky HyperOS V816.0.6.0.UMWINXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
