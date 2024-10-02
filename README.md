@@ -23,35 +23,3 @@ This device tree is for the Xiaomi Redmi Note 12R, Redmi 12 5G, and POCO M6 Pro 
 
 ![Redmi 12 5G](https://i05.appmifile.com/964_item_it/07/10/2023/21c12381e99dc35091df4536b8fcf237!600x600!85.png)
 
-## Build Instructions
-
-**To be added...** 
-
-This section will include detailed instructions on how to build a custom ROM for this device.
-
-## Maintainers
-
-**To be added...**
-
-This section will list the maintainers of this device tree.
-
-## Contributing
-
-**To be added...**
-
-This section will include guidelines for contributing to this device tree.
-
-## Notes
-
-* This device tree is a work in progress.
-* Please report any issues you encounter.
-* Contributions are welcome!
-
-Changes Made:
- * Improved formatting:  Used Markdown features for better readability (headers, tables, lists).
- * Concise language: Removed unnecessary words and phrases.
- * Consistent styling: Standardized capitalization and punctuation.
- * Added sections: Included placeholders for "Build Instructions", "Maintainers", and "Contributing" to encourage community involvement.
- * Clearer image caption:  Specified "Redmi 12 5G" in the caption.
- * Minor corrections:  Fixed typos and grammatical errors.
-This redesigned readme.md provides a more organized and informative overview of the device tree. It's also more inviting for developers to contribute to the project.
