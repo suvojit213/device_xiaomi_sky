@@ -1,43 +1,25 @@
-# Device Tree for Xiaomi Redmi Note 12R/Redmi 12 5G/POCO M6 Pro 5G (Sky)
+# Xiaomi Redmi Note 12R/Redmi 12 5G/POCO M6 Pro 5G (Sky/River)
 
-## Specifications
+This device tree is for the Xiaomi Redmi Note 12R, Redmi 12 5G, and POCO M6 Pro 5G, all codenamed "Sky" or "River".
 
-### **Performance**
-- **CPU**: Octa-core
-  - 2x Cortex A78 @ 2.2GHz
-  - 6x Cortex A55 @ 2.0GHz
-- **Chipset**: Qualcomm® Snapdragon™ 4 Gen 2 Mobile Platform (*Samsung* Foundry's *FinFET* 4nm)
-- **GPU**: Qualcomm® Adreno™ 619
+## Device Specifications
 
-### **Memory & Storage**
-- **RAM Options**: 4GB | 6GB | 8GB (LPDDR4x)
-- **Storage Options**: 128GB | 256GB UFS 2.2
-
-### **Display**
-- **Type**: 6.79" FHD+ IPS LCD
-- **Resolution**: 1080P
-- **Refresh Rate**: 90Hz
-- **Touch Sampling Rate**: 240Hz
-- **Peak Brightness**: 550 nits
-
-### **Camera**
-- **Rear Camera**:
-  - 50 MP, f/1.8 (wide), PDAF
-  - 2 MP, f/2.4 (depth)
-- **Front Camera**: 8 MP, f/2.0 (wide), 1.12µm
-
-### **Battery & Dimensions**
-- **Battery**: 5000mAh (typ) Li-Po
-- **Dimensions**: 168.60mm x 76.28mm x 8.17mm
-- **Weight**: 199g
-
-### **Release Date**
-- **Global**: August 1, 2023
+| Feature | Specification |
+|---|---|
+| **CPU** | Octa-core<br>2x Cortex-A78 @ 2.2GHz<br>6x Cortex-A55 @ 2.0GHz |
+| **Chipset** | Qualcomm Snapdragon 4 Gen 2 Mobile Platform<br>(Samsung Foundry's 4nm FinFET) |
+| **GPU** | Qualcomm Adreno 619 |
+| **Memory** | 4GB / 6GB / 8GB LPDDR4x |
+| **Storage** | 128GB / 256GB UFS 2.2 |
+| **Display** | 6.79-inch FHD+ (1080p) IPS LCD<br>90Hz refresh rate<br>240Hz touch sampling rate<br>550 nits peak brightness |
+| **Rear Camera** | 50MP (wide), f/1.8, PDAF<br>2MP (depth), f/2.4 |
+| **Front Camera** | 8MP (wide), f/2.0, 1.12µm |
+| **Battery** | 5000mAh (typ) Li-Polymer |
+| **Dimensions** | 168.60 x 76.28 x 8.17 mm<br>199g |
+| **Shipped Android Version** | 13.0 |
+| **Release Date** | August 1, 2023 (Global) |
 
 ## Device Image
 
-![Redmi 12 5G](https://github.com/prateekmaru/device_xiaomi_sky/assets/47496067/7dac6202-af1d-4942-944a-a8bd167ecf3e)
+![Redmi 12 5G](https://i05.appmifile.com/964_item_it/07/10/2023/21c12381e99dc35091df4536b8fcf237!600x600!85.png)
 
-## Additional Information
-
-For more details, refer to the [Spec Sheet](https://github.com/suvojit213/device_xiaomi_sky/tree/pixelstar?tab=readme-ov-file#specifications).
