@@ -94,7 +94,8 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle:64 \
     libqcomvisualizer:64 \
     libqcomvoiceprocessing:64 \
-    libvolumelistener:64
+    libvolumelistener:64 \
+    libsndcardparser:64
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
