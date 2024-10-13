@@ -32,6 +32,7 @@ TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a76
+TARGET_CPU_VARIANT_RUNTIME := kryo300
 
 # Audio
 $(call soong_config_set, android_hardware_audio, run_64bit, true)
