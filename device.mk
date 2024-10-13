@@ -118,10 +118,6 @@ PRODUCT_PACKAGES += \
     libagmmixer \
     vendor.qti.hardware.AGMIPC@1.0-service
 
-# Automotive
-PRODUCT_PACKAGES += \
-    android.hardware.automotive.vehicle@2.0-manager-lib
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
