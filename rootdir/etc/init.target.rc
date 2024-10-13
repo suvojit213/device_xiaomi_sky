@@ -215,7 +215,6 @@ on charger
     start vendor.power_off_alarm
     setprop sys.usb.controller a600000.dwc3
     wait /sys/class/udc/${sys.usb.controller}
-    setprop sys.usb.configfs 1
     #mi_thermald
     start mi_thermald
 
