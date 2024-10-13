@@ -334,6 +334,10 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor:64 \
     libavservices_minijail_vendor
 
+# Mlipay
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mlipay@1.1.vendor
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
