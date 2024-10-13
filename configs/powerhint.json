@@ -441,12 +441,6 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "1"
-    },
-    {
-      "PowerHint": "ML_ACC",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 2000,
-      "Value": "44"
     }
   ]
 }
