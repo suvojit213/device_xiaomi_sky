@@ -172,10 +172,6 @@ persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
 persist.sys.fflag.override.settings_bluetooth_hearing_aid=true
 ro.vendor.bluetooth.csip_qti=true
 
-# Audio steps
-ro.config.vc_call_vol_steps=11
-ro.config.media_vol_steps=25
-
 # Camera
 camera.disable_zsl_mode=true
 ro.camera.enableCamera1MaxZsl=1
@@ -184,6 +180,7 @@ persist.sys.miui.camera.protect_prev_ext=true
 
 # Display
 vendor.display.comp_mask=0
+vendor.display.disable_3d_adaptive_tm=1
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_hw_recovery_dump=1
@@ -228,6 +225,7 @@ persist.sys.sf.color_saturation=1.0
 persist.sys.sf.color_mode=7
 persist.sys.sf.native_mode=256
 debug.sf.hw=0
+debug.sf.enable_hwc_vds=false
 debug.egl.hw=0
 debug.sf.auto_latch_unsignaled=0
 debug.sf.high_fps_late_app_phase_offset_ns=1000000
@@ -239,7 +237,6 @@ debug.sf.enable_gl_backpressure=1
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.treat_170m_as_sRGB=1
-ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.taro.api32
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
 ro.opengles.version=196610
@@ -307,6 +304,9 @@ persist.vendor.radio.enableadvancedscan=true
 # RCS
 persist.vendor.rcs.singlereg.feature=1
 
+# Sensors
+persist.vendor.sensors.support_direct_channel=false
+
 # SOC
 ro.soc.manufacturer=QTI
 
@@ -325,10 +325,6 @@ vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=1
 sys.usb.mtp.batchcancel=1
 
-# VCB
-persist.vendor.vcb.ability=true
-persist.vendor.vcb.enable=false
-
 # Vibrator
 vendor.qcom.vibrator.led.enable_effects=1
 vendor.qcom.vibrator.led.mv_max=3544
@@ -337,6 +333,3 @@ vendor.qcom.vibrator.led.effect_ms_multiplier=5
 
 # WiFi
 wifi.aware.interface=wifi-aware0
-
-# Zygote
-zygote.critical_window.minute=10
